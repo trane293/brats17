@@ -452,7 +452,7 @@ def perform_evaluation(config_file):
 if __name__ == '__main__':
     if(len(sys.argv) != 2):
         print('Number of arguments should be 2. e.g.')
-        print('    python evaluate_model config17/test_all_class.txt')
+        print('    python evaluate_model config17/test_vgh.txt')
         exit()
     config_file = str(sys.argv[1])
     assert(os.path.isfile(config_file))
