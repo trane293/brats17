@@ -433,7 +433,7 @@ def perform_evaluation(config_file):
                 out_label[label2>0] = 3
                 out_label[label3==1] = 1
                 out_label[label3==2] = 4
-            elif(('flair' in config_data['modality_postfix'] or 'FLAIR' in config['modality_postfix']) and
+            elif(('flair' in config_data['modality_postfix'] or 'FLAIR' in config_data['modality_postfix']) and
                  'nii' in config_data['file_postfix']):
                 out_label[label2>0] = 1
                 out_label[label3>0] = 4
