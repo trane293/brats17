@@ -2,7 +2,7 @@
 data_root         = /scratch/asa224/asa224/Datasets/VGH_New/Processed
 save_folder       = result_vgh
 data_names        = vgh/vgh_names.txt
-modality_postfix  = [flair, t1, t1ce, t2]
+modality_postfix  = [FLAIR, T1, T1CE, T2]
 file_postfix      = nii.gz
 
 [network1ax]
