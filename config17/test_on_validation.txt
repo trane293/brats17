@@ -1,5 +1,5 @@
 [data]
-data_root         = /scratch/asa224/Datasets/BRATS2018/mm_synthesis/Validation_Synthesized/0111
+data_root         = /scratch/asa224/asa224/Datasets/BRATS2018/mm_synthesis/Validation_Synthesized/0111
 save_folder       = result_0111
 data_names        = config17/validation_names_temp.txt
 modality_postfix  = [flair, t1, t1ce, t2]
