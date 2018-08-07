@@ -1,6 +1,6 @@
 [data]
-data_root         = /home/anmol/mounts/cedar-rm/scratch/asa224/Datasets/BRATS2018/Validation
-save_folder       = result_validation17
+data_root         = /scratch/asa224/Datasets/BRATS2018/mm_synthesis/Validation_Synthesized/0111
+save_folder       = result_0111
 data_names        = config17/validation_names_temp.txt
 modality_postfix  = [flair, t1, t1ce, t2]
 file_postfix      = nii.gz
